@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="es.vcarmen.sensores5.Sensores5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sensor De Orientación"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AZIMUT"
+        android:textStyle="bold"
+        android:textColor="#AA33FF"
+        />
+
+
+    <TextView
+        android:id="@+id/azimut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="azimut"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VERTICALIDAD"
+        android:textStyle="bold"
+        android:textColor="#AA33FF"
+        />
+
+
+    <TextView
+        android:id="@+id/verticalidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="verticalidad"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INCLINACIÓN LATERAL"
+        android:textStyle="bold"
+        android:textColor="#AA33FF"
+        />
+
+
+    <TextView
+        android:id="@+id/lateralidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lateralidad"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NÚMERO DE LECTURAS"
+        android:textStyle="bold"
+        android:textColor="#AA33FF"
+        />
+
+
+    <TextView
+        android:id="@+id/lecturas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cero"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORIENTACIÓN"
+        android:textStyle="bold"
+        android:textColor="#AA33FF"
+        />
+
+
+    <TextView
+        android:id="@+id/orientacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORIENTACION"
+        android:textColor="#ff0000"
+        android:textStyle="bold|italic"
+        />
+
+
+</LinearLayout>
